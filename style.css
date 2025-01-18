@@ -1,0 +1,491 @@
+body {
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+img {
+
+width: 600px;
+height: auto;
+padding: 20px;
+margin-left: 5%;
+border-radius: 15%;
+
+}
+
+.IDimage {
+
+    border-radius: 10%;
+    width: 400px;
+height: auto;
+margin-left: 55%;
+}
+
+.hidden {
+
+    display: none;
+    
+    }
+
+#IDcard {
+
+    top: 5%;
+    position: fixed;
+    margin: auto;
+    color:#00ff00;
+    font-size: 99px;
+    z-index: 99;
+
+}
+
+.prime {
+width: 150px;
+height: auto;
+margin-top: 5px;
+border-radius: 0%;
+}
+
+.prime1 {
+    width: 100%;
+    height: auto;
+    margin-left: -15px;
+    margin-top: 0px;
+    border-radius: 0%;
+    }
+
+.prime2 {
+    width: 350px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 0%;
+    }
+
+.nocurve {
+    width: 400px;
+    height: auto;
+    border-radius: 0%;
+    margin-top: -20px;
+    }
+
+.smaller {
+width: 30%;
+height: 25%;
+margin-top: -50px;
+}
+
+.slightlysmaller {
+    width: 60%;
+    height: auto;
+    margin-top: 5px;
+    margin-left:20%;
+    border-radius: 35%;
+    }
+    
+
+.image-name {
+    position: relative;
+  }
+  
+.named {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: black;
+    background-color: yellow;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+  }
+
+h1 {
+    color: white;
+    font-size: 45px;
+    margin-top: 10%;
+}
+
+h2 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 1%;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    padding: 8px;
+    text-align: justify;
+}
+
+.newfont
+{
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    text-align: justify;
+}
+
+
+.coin {
+  position: relative; 
+  top: 0.2ex; 
+  
+
+}
+
+.action {
+    color: whitesmoke;
+    background-color: purple;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    padding: 10px;
+
+    border-color: yellow;
+    border-width: 5px;
+    border-style: groove;
+    text-align: justify;
+}
+
+ul li {
+    list-style-type: square;
+    color: whitesmoke;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    padding: 4px;
+    text-align: justify;
+}
+
+.censored {
+
+    color: black;
+    background-color: black;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.radio {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #778aa8;
+    font-size: 16px;
+    font-style: italic;
+    padding: 8px;
+    text-align: justify;
+}
+
+.redstart {
+    color: red;
+    background-color: red;
+    font-weight: bolder;
+    font-style: italic;
+}
+.redend {
+    color: red;
+    background-color: red;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.red {
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.orange {
+    color: black;
+    background-color: orange;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.orangestart {
+    color: orange;
+    background-color: orange;
+    font-weight: bolder;
+    font-style: italic;
+}
+.orangeend {
+    color: orange;
+    background-color: orange;
+    font-weight: bolder;
+    font-style: italic;
+}
+.yellow {
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.yellowstart {
+    color: yellow;
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+.yellowend {
+    color: yellow;
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+.green {
+    color: black;
+    background-color: green;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.09em;
+}
+
+.greenstart {
+    color: green;
+    background-color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
+.greenend {
+    color: green;
+    background-color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.skyblue {
+    color: skyblue;
+
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.09em;
+}
+.bluestart {
+    color: blue;
+    background-color: blue;
+    font-weight: bolder;
+    font-style: italic;
+}
+.blueend {
+    color: blue;
+    background-color: blue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.indigo {
+    color: white;
+    background-color: indigo;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.09em;
+}
+.indigostart {
+    color: indigo;
+    background-color: indigo;
+    font-weight: bolder;
+    font-style: italic;
+}
+.indigoend {
+    color: indigo;
+    background-color: indigo;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.violet {
+    color: black;
+    background-color: violet;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.09em;
+}
+.violetstart {
+    color: violet;
+    background-color: violet;
+    font-weight: bolder;
+    font-style: italic;
+}
+.violetend {
+    color: violet;
+    background-color: violet;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.grey {
+    color: black;
+    background-color: grey;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.09em;
+}
+.greystart {
+    color: grey;
+    background-color: grey;
+    font-weight: bolder;
+    font-style: italic;
+}
+.greyend {
+    color: grey;
+    background-color: grey;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.white-emphasis{
+    color: white;
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.proper-noun{
+    color: white;
+    font-size: 15px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+.dialogue-box {
+    display: flex;
+    border: 1px solid whitesmoke;
+    margin-bottom: 20px;
+  }
+  
+  .character-info {
+    display: flex;
+    flex-direction: column;
+    border-right: 0.9px solid whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    margin-top: 1px;
+  }
+  
+  .character-info img {
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-bottom: 1px;
+  }
+  
+  .dialogue {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    color:aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+
+  }
+
+ 
+a.nextchapter:hover
+{
+    background-color: #3366FF; 
+    color: whitesmoke;
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    padding: 8px;
+    text-align: justify;
+
+}
+
+a.nextchapter
+{
+    color: skyblue;
+    font-family: 'Courier New', monospace;
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 30%;
+    padding: 8px;
+    text-align: justify;
+}
+
+#movingImage {
+    position: relative;
+    left: -1000;
+    top: 10%;
+    transform: translateY(-25%);
+    animation: moveRight 10s infinite linear;
+}
+
+@keyframes moveRight {
+    100% {
+        left: 150%;
+    }
+}
+
+
+ /* BUTTON MANIA */
+ /* button #1 */
+
+ .space-western-button {  
+    background-color: rgba(150, 75, 0, 0.8);  
+    color: #fff;  
+    border: 2px solid transparent;  
+    border-radius: 8px;  
+    padding: 10px 20px;  
+    font-size: 36px;  
+    cursor: pointer;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  
+    transition: transform 0.2s ease;  
+    animation: glow 1s infinite;  
+    margin-left: 20%;
+  }  
+    
+  .space-western-button:hover {  
+    transform: scale(1.05);  
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);  
+  }  
+    
+  .space-western-button:active {  
+    transform: scale(0.95);  
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);  
+  }  
+    
+  @keyframes glow {  
+    0% {  
+      border-color: #ff0000;  
+    }  
+    16% {  
+      border-color: #ff7f00;  
+    }  
+    32% {  
+      border-color: #ffff00;  
+    }  
+    48% {  
+      border-color: #00ff00;  
+    }  
+    64% {  
+      border-color: #00ffff;  
+    }  
+    80% {  
+      border-color: #0000ff;  
+    }  
+    100% {  
+      border-color: #ff00ff;  
+    }  
+  }
+
+  /* end button 1  */
