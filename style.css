@@ -14,6 +14,16 @@ border-radius: 15%;
 
 }
 
+.pic-only-page {
+
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    margin-left: 5%;
+    border-radius: 15%;
+    
+    }
+
 .IDimage {
 
     border-radius: 10%;
